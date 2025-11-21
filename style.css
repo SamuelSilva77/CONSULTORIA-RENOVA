@@ -1,0 +1,374 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.semiheader{
+    height: 40px;
+    background-color: black;
+    opacity: 0.3;
+}
+
+#numero_telefone{
+    color: #e62214;
+    position: absolute;
+    right: 400px;
+    top: 10px;
+}
+
+header{
+    position: relative;
+}
+
+
+.logo{
+    height: 200px;
+    color: white;
+    margin-left: 350px;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+#logo{
+    font-family: "Caprasimo", serif;
+    font-size: 35px;
+    padding-left: 40px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.bloco{
+    height: 100px;
+    width: 100px;
+    background-color: #e6ae14;
+    position: absolute;
+    z-index: -1;
+
+}
+
+nav{
+    position: absolute;
+    right: 400px;
+    top: 45px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #e0685f;
+    transition: all 0.4s;
+}
+
+#inicio{
+   color: #e0685f;
+}
+
+.conteudo{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.384);
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+.conteudo a{
+    margin: 7px;
+    font-size: 15px;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 110px;
+    
+}
+
+.dropdown:hover .conteudo{
+    display: flex;
+    flex-flow: column;
+}
+
+.conteudo a:hover{
+    color: #e6ae14;
+}
+
+
+.texto{
+    margin-left: 340px;
+    width: 560px;
+}
+
+.saiba_mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100px;
+
+}
+
+#saiba_mais{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    background-color: #e6ae14;
+}
+
+.empresa{
+    height: 620px;
+    margin-top: 150px;
+    display: flex;
+    position: relative;
+}
+
+.foto_empresa{
+    position: absolute;
+    left: 300px;
+}
+
+.texto_empresa{
+    border: 10px solid rgb(197, 215, 231);
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.empresa p{
+    margin-left: 160px;
+    margin-right: 60px;
+}
+
+.serviços{
+    height: 800px;
+    background-image: linear-gradient(to bottom, #d9ebf3 60%, white 50%, white 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.titulo_serviços{
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+    font-family: "Caprasimo", serif;
+    letter-spacing: 2px;
+    width: max-content;
+}
+
+.titulo_serviços::before{
+    content: "";
+    height: 8px;
+    width: 100%;
+    background-color: #e62214;
+    position: absolute;
+    bottom: -10px;
+    }
+
+.finanças_serviços{
+    height: 550px;
+    width: 250px;
+    background-color: rgb(22, 21, 21);
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-align: center;
+}
+
+.finanças_serviços span, img{
+    display: inline-block;
+}
+
+.finanças_serviços a{
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+    background-color: #e6ae14;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+
+.marketing_serviços{
+    height: 550px;
+    width: 250px;
+    background-color: #5b6f76;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-align: center;
+}
+
+.marketing_serviços a{
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+    background-color: #e6ae14;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.marketing_serviços span, img{
+    display: inline-block;
+}
+
+
+
+.processos_serviços{
+    height: 550px;
+    width: 250px;
+    background-color: #93b5c4;
+    Padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-align: center;
+}
+
+.processos_serviços a{
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+    background-color: #e6ae14;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.processos_serviços span, img{
+    display: inline-block;
+}
+
+
+
+
+.pessoas_serviços{
+    height: 550px;
+    width: 250px;
+    background-color: #b7dfed;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-align: center;
+}
+
+.pessoas_serviços a{
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+    background-color: #e6ae14;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.pessoas_serviços span, img{
+    display: inline-block;
+}
+
+.clientes{
+    height: 760px;
+    background-image: url(imagem/fundo_clientes.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clientes_titulo{
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+    font-family: "Caprasimo", serif;
+}
+
+
+.clientes_titulo::before{
+    content: "";
+    height: 8px;
+    background-color:#e62214;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+}
+
+.clientes img{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+footer{
+    height: 600px;
+    display: flex;
+    background-color: rgb(228, 221, 221);
+}
+
+.div1{
+    
+    flex: 47%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-right: 3%;
+}
+
+
+.div2{
+    
+    flex: 47%;
+    margin-left: 3%;
+    text-align: center;
+    position: relative;
+}
+
+.div2 input{
+    margin-top: 10px;
+}
+
+.div2 input:hover{
+    border: 2px solid black;
+}
+
+.content{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
